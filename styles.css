@@ -4,6 +4,29 @@
   margin: 0 20px 0 20px;
 }
 
+.profile {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  margin: 1em;
+}
+
+.profile h1 {
+  font-size: 2.5em;
+  margin: 0.5em;
+}
+
+.profile p {
+  margin: 0.5em;
+}
+
+.profile-image {
+  width: 15em;
+  height: 15em;
+  border-radius: 50%;
+  margin: 0 0 0.5em 0;
+}
+
 a {
   color: #1a0dab;
   font-weight: bold;
